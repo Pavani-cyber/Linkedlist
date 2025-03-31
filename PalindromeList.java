@@ -13,7 +13,7 @@ this.next=null;
 }
   //add element at first
 public void add(){
-Node newNode= Node(data);
+Node newNode= new Node(data);
 if(head==null){
 head=newNode;
 return;
